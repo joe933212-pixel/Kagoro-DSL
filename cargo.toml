@@ -1,0 +1,11 @@
+[package]
+name = "kagoro-dsl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A deterministic, statically-typed DSL for the KIN-SYS protocol."
+
+[dependencies]
+# Standard parsing libraries preferred by Rust compiler developers
+ariadne = "0.3.0" # For beautiful compiler error reporting
+chumsky = "0.9.3" # High-performance parser combinator
